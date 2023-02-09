@@ -59,7 +59,8 @@ main .container:first-child div input[type='text'] {
 main .container:first-child div .btn-group.select {
   height: 60px;
   padding: 10px 0;
-  margin-bottom: 10px;
+  margin: 5px auto;
+  background: red;
 }
 
 main .container:first-child div input[type='text']:focus {
@@ -79,6 +80,9 @@ main .container:nth-child(2) img {
   width: 100%;
 }
 
+.btn-group.navigation {
+  margin-top: 40px;
+}
 
 /* Utilities */
 .btn {
