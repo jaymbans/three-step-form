@@ -43,15 +43,23 @@ main .container:first-child div:first-child {
 main .container:first-child div h1 {
   color: white;
   font-weight: normal;
-  padding-bottom: 40px;
+  height: 100px;
+  margin-bottom: 10px;
+  margin: auto;
 }
 
 main .container:first-child div input[type='text'] {
   background: inherit;
   border: none;
   border-bottom: 1px solid white;
-  margin: 15px 0;
-  padding: 5px 0;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+main .container:first-child div .btn-group.select {
+  height: 60px;
+  padding: 10px 0;
+  margin-bottom: 10px;
 }
 
 main .container:first-child div input[type='text']:focus {

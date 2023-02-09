@@ -7,7 +7,7 @@ export default function TextInput({ inputType, inputPlaceholder }) {
     )
   } else if (inputType === 'button') {
     return (
-      <div className="btn-group">
+      <div className="btn-group select">
         <button className="btn">$2k</button>
         <button className="btn">$5k</button>
         <button className="btn active">No Limit</button>
