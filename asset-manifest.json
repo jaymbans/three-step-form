@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/github.io/three-step-form/static/css/main.bfb39162.css",
+    "main.js": "/github.io/three-step-form/static/js/main.f2c83526.js",
+    "index.html": "/github.io/three-step-form/index.html",
+    "main.bfb39162.css.map": "/github.io/three-step-form/static/css/main.bfb39162.css.map",
+    "main.f2c83526.js.map": "/github.io/three-step-form/static/js/main.f2c83526.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bfb39162.css",
+    "static/js/main.f2c83526.js"
+  ]
+}
