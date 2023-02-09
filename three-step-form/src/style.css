@@ -60,7 +60,6 @@ main .container:first-child div .btn-group.select {
   height: 60px;
   padding: 10px 0;
   margin: 5px auto;
-  background: red;
 }
 
 main .container:first-child div input[type='text']:focus {
