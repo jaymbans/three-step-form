@@ -74,13 +74,18 @@ main .container:nth-child(2) img {
 
 /* Utilities */
 .btn {
-  background: white;
-  color: #745E5E;
-  border: none;
+  color: white;
+  background: #745E5E;
+  border: 1px solid white;
   margin: 5px;
   width: fit-content;
   padding: 8px 20px;
   cursor: pointer;
+}
+
+.btn.active {
+  background: white;
+  color: #745E5E;
 }
 
 .btn:hover {

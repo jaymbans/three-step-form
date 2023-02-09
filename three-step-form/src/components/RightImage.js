@@ -1,8 +1,7 @@
-export default function RightImage() {
-  const stageSource = 'https://assets.codepen.io/6060109/form-stage-1.png';
+export default function RightImage({ imgUrl }) {
   return (
     <div className="container">
-      <img src={stageSource} alt="" />
+      <img src={imgUrl} alt="" />
     </div>
   )
 }

@@ -17,8 +17,8 @@ export default function ButtonGroup({ stage, setStage }) {
 
   return (
     <div className="btn-group">
-      <button className="btn" onClick={decreaseStage}>Prev</button>
-      <button className="btn" onClick={increaseStage}>Next</button>
+      <button className="btn active" onClick={decreaseStage}>Prev</button>
+      <button className="btn active" onClick={increaseStage}>Next</button>
     </div>
   )
 }
