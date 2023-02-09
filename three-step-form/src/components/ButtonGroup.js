@@ -2,7 +2,7 @@
 export default function ButtonGroup({ stage, setStage }) {
 
   const increaseStage = () => {
-    if (stage === 2) return;
+    if (stage === 3) return;
 
     return setStage(stage + 1)
   }
@@ -14,11 +14,12 @@ export default function ButtonGroup({ stage, setStage }) {
   }
 
 
-
-  return (
-    <div className="btn-group">
-      <button className="btn active" onClick={decreaseStage}>Prev</button>
-      <button className="btn active" onClick={increaseStage}>Next</button>
-    </div>
-  )
+  if (stage < 3) {
+    return (
+      <div className="btn-group">
+        <button className="btn active" onClick={decreaseStage}>Prev</button>
+        <button className="btn active" onClick={increaseStage}>Next</button>
+      </div>
+    )
+  }
 }

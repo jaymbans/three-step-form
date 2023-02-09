@@ -103,3 +103,15 @@ main .container:nth-child(2) img {
 .btn-group {
   display: flex;
 }
+
+/* Mobile Devices */
+@media only screen and (max-width: 600px) {
+  main {
+    flex-direction: column;
+  }
+
+  main .container {
+    width: 100%;
+    height: 50%;
+  }
+}
