@@ -6,6 +6,12 @@ import LeftContainer from './components/LeftContainer';
 import RightImage from './components/RightImage';
 
 function App() {
+  const [formData, setFormData] = useState({
+    email: '',
+    budget: null,
+    question: ''
+  })
+
   const [stage, setStage] = useState(0);
 
   const STAGE_CONTENT = [
@@ -40,7 +46,9 @@ function App() {
           stage={stage}
           title={STAGE_CONTENT[stage].title}
           inputType={STAGE_CONTENT[stage].inputType}
-          inputPlaceholder={STAGE_CONTENT[stage].inputPlaceholder} />
+          inputPlaceholder={STAGE_CONTENT[stage].inputPlaceholder}
+          formData={formData}
+          setFormData={setFormData} />
         <RightImage imgUrl={STAGE_CONTENT[stage].imgUrl} />
       </main>
     </div>

@@ -1,10 +1,14 @@
 
-export default function ButtonGroup({ stage, setStage }) {
+export default function ButtonGroup({ stage, setStage, formData }) {
 
   const increaseStage = () => {
     if (stage === 3) return;
 
-    return setStage(stage + 1)
+    setStage(stage + 1)
+    if (stage === 2) {
+      alert(formData.email + ' ' + formData.budget + ' ' + formData.question)
+    }
+    return;
   }
 
   const decreaseStage = () => {
@@ -12,6 +16,7 @@ export default function ButtonGroup({ stage, setStage }) {
 
     return setStage(stage - 1)
   }
+
 
 
   if (stage < 3) {
